@@ -1,0 +1,87 @@
+openapi: 3.0.3
+info:
+  title: NOVEYA • AI Health Module
+  version: 0.1.0
+  description: |
+    API for integrative-health assessment & recommendations.
+    **Not a medical device.**
+servers:
+  - url: http://localhost:8000
+paths:
+  /v1/assessment:
+    post:
+      summary: Assess integrative-health signals
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/AssessmentRequest'
+      responses:
+        '200':
+          description: Assessment result
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AssessmentResponse'
+  /v1/recommendations:
+    get:
+      summary: Get general recommendations
+      parameters:
+        - in: query
+          name: category
+          schema:
+            type: string
+            default: general
+      responses:
+        '200':
+          description: OK
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  category:
+                    type: string
+                  recommendations:
+                    type: array
+                    items:
+                      type: string
+components:
+  schemas:
+    AssessmentRequest:
+      type: object
+      properties:
+        age:
+          type: integer
+          minimum: 0
+          nullable: true
+        sex:
+          type: string
+          nullable: true
+        symptoms:
+          type: array
+          items:
+            type: string
+          default: []
+        lifestyle:
+          type: string
+          nullable: true
+        notes:
+          type: string
+          nullable: true
+      required: []
+    AssessmentResponse:
+      type: object
+      properties:
+        risks:
+          type: array
+          items:
+            type: string
+        suggestions:
+          type: array
+          items:
+            type: string
+        disclaimer:
+          type: string
+      required: [risks, suggestions, disclaimer]
