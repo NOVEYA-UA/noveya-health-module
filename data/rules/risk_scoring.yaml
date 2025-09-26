@@ -1,0 +1,7 @@
+@'
+rules:
+  - risk: tension_headache
+    if_any: ["headache", "головний біль", "мигрень"]
+  - risk: burnout
+    if_any: ["burnout", "виснаження", "стресс", "тривога"]
+'@ | Set-Content -Encoding UTF8 data/rules/risk_scoring.yaml
