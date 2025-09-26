@@ -1,0 +1,14 @@
+@'
+id: sleep_hygiene_v1
+title: "Гігієна сну"
+indications: ["tension_headache","burnout","insomnia"]
+contraindications: []
+steps:
+  - day_range: [1,14]
+    actions:
+      - "Фіксований час відбою/підйому"
+      - "Вечір: приглушення синього світла за 2 год"
+      - "Кофеїн: не пізніше 8 год до сну"
+evidence:
+  level: "pragmatic-consensus"
+'@ | Set-Content -Encoding UTF8 data/protocols/sleep_hygiene_v1.yaml
