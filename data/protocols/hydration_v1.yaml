@@ -1,0 +1,13 @@
+@'
+id: hydration_v1
+title: "Гідратаційний протокол"
+indications: ["tension_headache","dehydration"]
+contraindications: []
+steps:
+  - day_range: [1,7]
+    actions:
+      - "30–35 мл/кг/добу води; додати 0.5–1 л за спеки/навантаження"
+      - "Алкоголь/цукор — обмежити"
+evidence:
+  level: "pragmatic-consensus"
+'@ | Set-Content -Encoding UTF8 data/protocols/hydration_v1.yaml
