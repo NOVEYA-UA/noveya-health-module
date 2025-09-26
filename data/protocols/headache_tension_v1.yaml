@@ -1,0 +1,16 @@
+@'
+id: headache_tension_v1
+title: "Головний біль напруги — базовий протокол (7–10 днів)"
+indications: ["tension_headache","headache","головний біль"]
+contraindications: []
+steps:
+  - day_range: [1,7]
+    actions:
+      - "Гідратація: 30–35 мл/кг/добу води"
+      - "Ергономіка: налаштування робочого місця; розтяжка шиї/плеч"
+      - "Зір: правило 20-20-20"
+      - "Рух: щодня 20–30 хв ходьби"
+evidence:
+  level: "pragmatic-consensus"
+review_after_days: 7
+'@ | Set-Content -Encoding UTF8 data/protocols/headache_tension_v1.yaml
