@@ -1,0 +1,15 @@
+__pycache__/
+.venv/
+.env
+dist/
+build/
+*.pyc
+*.pyo
+*.pyd
+*.log
+.pytest_cache/
+.mypy_cache/
+.DS_Store
+*.zip
+*.tar.gz
+logs/
