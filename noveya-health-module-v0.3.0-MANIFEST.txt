@@ -1,0 +1,22 @@
+NOVEYA • AI Health Module v0.3.0 — MANIFEST (expanded)
+Total files: 31
+Protocols: 16
+Rules: 3
+
+Protocols list:
+  - data/protocols/anxiety_relief_v1.yaml
+  - data/protocols/back_pain_baseline_v1.yaml
+  - data/protocols/breathing_coherence_v1.yaml
+  - data/protocols/environmental_exposure_v1.yaml
+  - data/protocols/evening_winddown_v1.yaml
+  - data/protocols/headache_tension_v1.yaml
+  - data/protocols/hydration_v1.yaml
+  - data/protocols/insulin_resistance_v1.yaml
+  - data/protocols/lipids_balance_v1.yaml
+  - data/protocols/liver_nafld_v1.yaml
+  - data/protocols/metabolic_antiinflammatory_v1.yaml
+  - data/protocols/metabolic_balance_v1.yaml
+  - data/protocols/mitochondrial_support_v1.yaml
+  - data/protocols/movement_baseline_v1.yaml
+  - data/protocols/posture_vision_v1.yaml
+  - data/protocols/sleep_hygiene_v1.yaml
