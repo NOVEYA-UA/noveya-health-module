@@ -1,7 +1,27 @@
-@'
 rules:
   - risk: tension_headache
-    if_any: ["headache", "головний біль", "мигрень"]
+    if_any: ["headache","головний біль","мігрень","навантаження на очі","скутість шиї"]
   - risk: burnout
-    if_any: ["burnout", "виснаження", "стресс", "тривога"]
-'@ | Set-Content -Encoding UTF8 data/rules/risk_scoring.yaml
+    if_any: ["burnout","виснаження","хронічний стрес","тривога","емоційне вигоряння"]
+  - risk: insomnia
+    if_any: ["insomnia","безсоння","порушення сну","часті пробудження"]
+  - risk: anxiety
+    if_any: ["anxiety","тривога","паніка","серцебиття від стресу"]
+  - risk: back_pain
+    if_any: ["back pain","біль у спині","поперек","сидяча робота"]
+  - risk: metabolic
+    if_any: ["інсулінорезистентність","prediabetes","метаболічний синдром","коливання глюкози","сонливість після їжі"]
+  - risk: nafld
+    if_any: ["жирова печінка","нажхп","стеатоз"]
+  - risk: dyslipidemia
+    if_any: ["високий холестерин","ліпіди","підвищені тригліцериди"]
+  - risk: inflammation_low_grade
+    if_any: ["запалення","СРБ","набряк низького ступеня","ломота без температури"]
+  - risk: environmental_exposure
+    if_any: ["smog","цвіль","mold","забруднення повітря","випари","вологе приміщення"]
+  - risk: microbiome_dysbiosis
+    if_any: ["здуття","нерегулярний стілець","дисбіоз","кишковий дискомфорт"]
+  - risk: circadian_disruption
+    if_any: ["зміна графіка","нічні зміни","jet lag","пізній сон"]
+  - risk: cognitive_fatigue
+    if_any: ["brain fog","когнітивна втома","розсіяність"]
