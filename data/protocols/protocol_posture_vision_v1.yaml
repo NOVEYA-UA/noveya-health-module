@@ -1,0 +1,10 @@
+id: posture_vision_v1
+title: "Постава та зір (7 днів)"
+indications: ["tension_headache","headache"]
+contraindications: []
+steps:
+  - day_range: [1,7]
+    actions:
+      - "Налаштування робочого місця; висота екрану"
+      - "20‑20‑20 для очей; мікропаузи 5 хв щогодини"
+evidence: { level: "pragmatic-consensus" }

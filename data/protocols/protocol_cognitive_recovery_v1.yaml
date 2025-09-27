@@ -1,0 +1,11 @@
+id: cognitive_recovery_v1
+title: "Когнітивне відновлення (14 днів)"
+indications: ["cognitive_fatigue","burnout","insomnia"]
+contraindications: []
+steps:
+  - day_range: [1,14]
+    actions:
+      - "Ритм 90–120 хв роботи / 10–15 хв відпочинку"
+      - "Короткі прогулянки на відкритому повітрі 2×/день"
+      - "Сон/гігієна сну; обмеження вечірнього синього світла"
+evidence: { level: "pragmatic-consensus" }

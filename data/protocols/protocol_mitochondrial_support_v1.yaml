@@ -1,0 +1,12 @@
+id: mitochondrial_support_v1
+title: "Мітохондріальна підтримка (21 день)"
+indications: ["metabolic","burnout","cognitive_fatigue"]
+contraindications: []
+steps:
+  - day_range: [1,21]
+    actions:
+      - "Ранкове світло 10–15 хв; денні прогулянки"
+      - "150 хв/тиж аеробно; 2×/тиж силова"
+      - "Регулярні прийоми їжі без екстремумів"
+      - "Сон 7.5–8.5 год"
+evidence: { level: "pragmatic-consensus" }

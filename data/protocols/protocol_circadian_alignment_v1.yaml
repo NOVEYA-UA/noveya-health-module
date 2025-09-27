@@ -1,0 +1,11 @@
+id: circadian_alignment_v1
+title: "Циркадна корекція (14 днів)"
+indications: ["circadian_disruption","insomnia","burnout"]
+contraindications: []
+steps:
+  - day_range: [1,14]
+    actions:
+      - "Ранкове природне світло 10–15 хв, щодня"
+      - "Фіксований час відбою/підйому (±30 хв)"
+      - "Екрани/яскраве світло — мінімізувати за 1–2 год до сну"
+evidence: { level: "pragmatic-consensus" }

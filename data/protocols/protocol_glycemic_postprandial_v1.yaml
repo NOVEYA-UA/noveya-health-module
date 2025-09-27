@@ -1,0 +1,11 @@
+id: glycemic_postprandial_v1
+title: "Постпрандіальна глікемія — контроль (14 днів)"
+indications: ["metabolic","коливання глюкози","сонливість після їжі"]
+contraindications: []
+steps:
+  - day_range: [1,14]
+    actions:
+      - "Структура прийому: білок/клітковина спершу → крохмаль пізніше"
+      - "10–15 хв неквапливої ходьби після їжі"
+      - "Напої без цукру; десерти в межах свят"
+evidence: { level: "pragmatic-consensus" }

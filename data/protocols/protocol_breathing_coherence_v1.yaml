@@ -1,0 +1,10 @@
+id: breathing_coherence_v1
+title: "Coherent breathing (5–10 хв щодня)"
+indications: ["anxiety","burnout","insomnia"]
+contraindications: []
+steps:
+  - day_range: [1,14]
+    actions:
+      - "4с вдих / 6с видих, 5–10 хв 1–2×/день"
+notes: "При запамороченні — припинити та відновити нормальне дихання."
+evidence: { level: "pragmatic-consensus" }

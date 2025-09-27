@@ -1,0 +1,10 @@
+id: back_pain_baseline_v1
+title: "Біль у спині — базовий (14 днів)"
+indications: ["back_pain","поперек"]
+contraindications: []
+steps:
+  - day_range: [1,14]
+    actions:
+      - "Легкі розтяжки для попереку/тазостегнових; ергономіка"
+      - "Поступове збільшення ходьби"
+evidence: { level: "pragmatic-consensus" }

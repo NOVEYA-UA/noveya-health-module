@@ -1,0 +1,10 @@
+id: social_connection_v1
+title: "Соціальна підтримка (14 днів)"
+indications: ["burnout","anxiety","insomnia"]
+contraindications: []
+steps:
+  - day_range: [1,14]
+    actions:
+      - "1–2 теплі розмови на тиждень; планування зустрічі/дзвінка"
+      - "Коротка практика вдячності (2–3 хв) щодня"
+evidence: { level: "pragmatic-consensus" }

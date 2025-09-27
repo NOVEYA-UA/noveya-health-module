@@ -1,0 +1,10 @@
+id: movement_baseline_v1
+title: "Рух — базовий (14 днів)"
+indications: ["back_pain","metabolic","burnout","dyslipidemia"]
+contraindications: []
+steps:
+  - day_range: [1,14]
+    actions:
+      - "Щоденно 20–30 хв ходьби або легкого кардіо"
+      - "2×/тиж легка силова (всі основні групи)"
+evidence: { level: "pragmatic-consensus" }

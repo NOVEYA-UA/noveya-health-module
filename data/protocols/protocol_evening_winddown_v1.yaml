@@ -1,0 +1,10 @@
+id: evening_winddown_v1
+title: "Вечірнє заспокоєння (7 днів)"
+indications: ["insomnia","burnout","anxiety"]
+contraindications: []
+steps:
+  - day_range: [1,7]
+    actions:
+      - "Ритуал wind‑down 30–60 хв (низьке світло, спокійні заняття)"
+      - "Теплий душ/ванна (за відсутності протипоказань)"
+evidence: { level: "pragmatic-consensus" }

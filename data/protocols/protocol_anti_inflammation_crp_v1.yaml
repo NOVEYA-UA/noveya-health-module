@@ -1,0 +1,11 @@
+id: anti_inflammation_crp_v1
+title: "Антизапальний режим (LGI) (28 днів)"
+indications: ["inflammation_low_grade"]
+contraindications: []
+steps:
+  - day_range: [1,28]
+    actions:
+      - "Раціон антизапальний (див. metabolic_antiinflammatory_v1)"
+      - "Сон 7.5–8.5 год; дихання 4‑6 (5–10 хв щодня)"
+      - "Щоденна прогулянка 20–30 хв; силова 2×/тиж"
+evidence: { level: "pragmatic-consensus" }

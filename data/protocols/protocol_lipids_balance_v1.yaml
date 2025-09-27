@@ -1,0 +1,11 @@
+id: lipids_balance_v1
+title: "Ліпіди: підтримка (12 тижнів)"
+indications: ["dyslipidemia","ліпіди","високий холестерин"]
+contraindications: []
+steps:
+  - day_range: [1,84]
+    actions:
+      - "Клітковина ≥30 г/добу; омега‑3 з їжі; рослинні стероли — з натуральних джерел"
+      - "Насичені жири — помірно; УПП — мінімум"
+      - "Аеробно 150–300 хв/тиж; силова 2–3×/тиж"
+evidence: { level: "pragmatic-consensus" }

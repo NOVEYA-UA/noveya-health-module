@@ -1,0 +1,11 @@
+id: microbiome_support_v1
+title: "Мікробіота — підтримка (21 день)"
+indications: ["microbiome_dysbiosis","metabolic"]
+contraindications: []
+steps:
+  - day_range: [1,21]
+    actions:
+      - "Різноманітність рослинних продуктів: ціль — 20–30 видів/тиж"
+      - "Поступове додавання ферментованих продуктів (якщо переносимі)"
+      - "Вода як основний напій; мінімізувати штучні підсолоджувачі"
+evidence: { level: "pragmatic-consensus" }
